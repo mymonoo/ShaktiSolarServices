@@ -7,9 +7,6 @@ A professional website Demo for Shakti Solar Services, showcasing solar pumps, c
 - Detailed information on Solar Pumps, Controllers, and RMS (Remote Monitoring System).
 - Support and query forms.
 
-## Usage
-
-
 ## Legal
 This is just a Demo.
 It is not linked to any pvt entities.
