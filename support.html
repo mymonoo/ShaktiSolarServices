@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support & After-Sales Service | Shakti Solar Services</title>
+    <meta name="description"
+        content="Experience world-class after-sales support with Shakti Solar. Fast complaint registration, virtual assistance via RMS, and doorstep service.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .support-hero {
+            height: 50vh;
+            background: linear-gradient(rgba(209, 32, 39, 0.9), rgba(209, 32, 39, 0.7)), url('https://images.unsplash.com/photo-1521791136064-7986c2959213?auto=format&fit=crop&w=1920&q=80') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .service-timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+
+        .service-step {
+            display: flex;
+            gap: 3rem;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .service-step::before {
+            content: '';
+            position: absolute;
+            left: 30px;
+            top: 60px;
+            width: 2px;
+            height: calc(100% + 2rem);
+            background: #eee;
+            z-index: 1;
+        }
+
+        .service-step:last-child::before {
+            display: none;
+        }
+
+        .step-icon {
+            width: 64px;
+            height: 64px;
+            background: var(--primary-color);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            z-index: 2;
+            box-shadow: 0 5px 15px rgba(209, 32, 39, 0.3);
+        }
+
+        .step-content {
+            padding-top: 0.5rem;
+        }
+
+        .step-content h3 {
+            color: var(--accent-color);
+            margin-bottom: 0.8rem;
+            font-size: 1.5rem;
+        }
+
+        .step-content p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .contact-box {
+            background: #fdf2f2;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .contact-methods {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-method {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .contact-method i {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+
+        .disclaimer {
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-text">SHAKTI <span class="highlight">SOLAR SERVICES</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="rooftop.html">Solar Rooftop</a></li>
+                <li><a href="rms.html">RMS</a></li>
+                <li><a href="kusum.html">PM Kusum Yojna</a></li>
+                <li><a href="support.html" class="active">Support</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Support Hero -->
+    <header class="support-hero">
+        <div class="container">
+            <h1 data-aos="fade-up">EXCELLENCE IN AFTER-SALES SERVICE</h1>
+            <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.2rem; margin-top: 1rem;">At Shakti, our
+                relationship with you begins after the sale. We're here to ensure your peace of mind.</p>
+        </div>
+    </header>
+
+    <!-- Service Process -->
+    <section class="info-section">
+        <div class="container">
+            <div class="section-title text-center" style="text-align: center;" data-aos="fade-up">
+                <h2>Our 3-Step Service Resolution</h2>
+                <div class="underline" style="margin: 0.5rem auto 2rem auto;"></div>
+            </div>
+
+            <div class="service-timeline">
+                <!-- Step 1 -->
+                <div class="service-step" data-aos="fade-up">
+                    <div class="step-icon">1</div>
+                    <div class="step-content">
+                        <h3>Instant Registration</h3>
+                        <p>Register your complaint instantly by calling our toll-free number
+                            <strong>1800-103-5555</strong>. Our streamlined process ensures your issue is logged in
+                            under 1 minute.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="service-step" data-aos="fade-up">
+                    <div class="step-icon">2</div>
+                    <div class="step-content">
+                        <h3>Virtual Remote Assistance</h3>
+                        <p>You then call back at <strong>7777-810-888</strong>. Using our powerful
+                            <strong>Remote Monitoring System (RMS)</strong>, we can diagnose and resolve most issues the
+                            same day by adjusting parameters directly within the controller, virtually and instantly.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="service-step" data-aos="fade-up">
+                    <div class="step-icon">3</div>
+                    <div class="step-content">
+                        <h3>On-Site Expert Support</h3>
+                        <p>If the problem persists after remote intervention, our qualified technician will be
+                            dispatched to your location to provide a comprehensive solution right at your doorstep.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box" data-aos="zoom-in">
+                <h3>Contact Our Support Center</h3>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class="fas fa-headset"></i>
+                        <span>1800 103 5555</span>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <span>care@shaktipumps.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="disclaimer">* On-site service and spare parts are subject to the terms and conditions of the
+                product warranty policy.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Shakti Solar Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

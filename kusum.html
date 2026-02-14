@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Kusum Yojna | Shakti Solar Services</title>
+    <meta name="description"
+        content="Learn about PM Kusum Yojna and access state-wise government links for solar pump subsidies. HREDA, MEDA, PEDA, and more.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .kusum-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1548518060-39ec845f2a1b?auto=format&fit=crop&w=1920&q=80') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .state-links {
+            padding: 4rem 0;
+            background: #f4f4f4;
+        }
+
+        .state-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .state-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .state-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .state-card h3 {
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+
+        .gov-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: var(--primary-color);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .info-section {
+            padding: 4rem 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-text">SHAKTI <span class="highlight">SOLAR SERVICES</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="rooftop.html">Solar Rooftop</a></li>
+                <li><a href="rms.html">RMS</a></li>
+                <li><a href="kusum.html" class="active">PM Kusum Yojna</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="kusum-hero">
+        <div class="container">
+            <h1 data-aos="fade-up">PM KUSUM YOJNA</h1>
+            <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.2rem; margin-top: 1rem;">Pradhan Mantri Kisan
+                Urja Suraksha evam Utthaan Mahabhiyan</p>
+        </div>
+    </header>
+
+    <!-- Info Section -->
+    <section class="info-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Empowering Farmers with Subsidies</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="grid-2">
+                <div data-aos="fade-right">
+                    <p>The PM-KUSUM scheme aims to provide energy security to farmers in India, along with honoring
+                        India’s commitment to increase the share of installed capacity of electric power from
+                        non-fossil-fuel sources to 40% by 2030.</p>
+                    <br>
+                    <p><strong>Major Benefits:</strong></p>
+                    <ul style="padding-left: 1.5rem; margin-top: 1rem;">
+                        <li>Up to 60-90% subsidy on solar pumps.</li>
+                        <li>Reduced dependency on diesel and grid electricity.</li>
+                        <li>Opportunity to sell excess power to the grid.</li>
+                        <li>Environment-friendly irrigation.</li>
+                    </ul>
+                </div>
+                <div data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1596273442144-41ba29d2bf5d?auto=format&fit=crop&w=800&q=80"
+                        alt="Farmer with Solar" style="width: 100%; border-radius: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- State Links Section -->
+    <section class="state-links">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>State-Wise Official Portals</h2>
+                <p>Click on your state to visit the official PM-KUSUM portal for registration and applications.</p>
+                <div class="underline"></div>
+            </div>
+
+            <div class="state-grid">
+                <!-- Haryana -->
+                <div class="state-card" data-aos="zoom-in">
+                    <h3>Haryana (HREDA)</h3>
+                    <p>Haryana Renewable Energy Development Agency</p>
+                    <a href="https://hareda.gov.in/" target="_blank" class="gov-link">Visit HREDA Portal</a>
+                </div>
+
+                <!-- Maharashtra -->
+                <div class="state-card" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>Maharashtra (MEDA)</h3>
+                    <p>Maharashtra Energy Development Agency</p>
+                    <a href="https://www.mahaurja.com/" target="_blank" class="gov-link">Visit MEDA Portal</a>
+                </div>
+
+                <!-- Madhya Pradesh -->
+                <div class="state-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Madhya Pradesh</h3>
+                    <p>CM Solar Pump Scheme Portal</p>
+                    <a href="https://cmsolarpump.mp.gov.in/" target="_blank" class="gov-link">Visit MP portal</a>
+                </div>
+
+                <!-- Punjab -->
+                <div class="state-card" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>Punjab (PEDA)</h3>
+                    <p>Punjab Energy Development Agency</p>
+                    <a href="https://www.peda.gov.in/" target="_blank" class="gov-link">Visit PEDA Portal</a>
+                </div>
+
+                <!-- Uttar Pradesh -->
+                <div class="state-card" data-aos="zoom-in" data-aos-delay="400">
+                    <h3>Uttar Pradesh (UPNEDA)</h3>
+                    <p>UP New & Renewable Energy Dev. Agency</p>
+                    <a href="http://upneda.org.in/" target="_blank" class="gov-link">Visit UPNEDA Portal</a>
+                </div>
+
+                <!-- Rajasthan -->
+                <div class="state-card" data-aos="zoom-in" data-aos-delay="500">
+                    <h3>Rajasthan (RRECL)</h3>
+                    <p>Rajasthan Renewable Energy Corporation Ltd</p>
+                    <a href="https://energy.rajasthan.gov.in/rrecl" target="_blank" class="gov-link">Visit RRECL
+                        Portal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Shakti Solar Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
