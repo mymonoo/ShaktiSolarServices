@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Shakti Solar Services</title>
+    <meta name="description"
+        content="Professional solar services for Agriculture, Industry, and Rooftop. Advanced RMS monitoring and AI-driven technician assignment.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .service-hero {
+            padding: 10rem 0 6rem 0;
+            background: linear-gradient(135deg, #fdf2f2 0%, #fff 100%);
+            text-align: center;
+        }
+
+        .service-features {
+            padding: 6rem 0;
+            background: #fff;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .service-item {
+            padding: 2.5rem;
+            border-radius: 20px;
+            background: #fbfbfb;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            border-bottom: 4px solid transparent;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        .service-item i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .service-item h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .rms-section {
+            padding: 6rem 0;
+            background: #1A1A1A;
+            color: var(--white);
+        }
+
+        .rms-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .rms-list {
+            list-style: none;
+        }
+
+        .rms-list li {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            font-size: 1.1rem;
+        }
+
+        .rms-list i {
+            color: var(--secondary-color);
+            margin-top: 5px;
+        }
+
+        .rms-img img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .map-section {
+            padding: 6rem 0;
+            background: #fbfbfb;
+            text-align: center;
+        }
+
+        .map-container {
+            max-width: 1000px;
+            margin: 3rem auto 0 auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+        }
+
+        .map-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .category-tags {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            padding: 0.5rem 1.5rem;
+            background: var(--primary-color);
+            color: var(--white);
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 968px) {
+            .rms-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-text">SHAKTI <span class="highlight">SOLAR SERVICES</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="rms.html">RMS</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="service-hero">
+        <div class="container" data-aos="fade-up">
+            <h1>Our Specialized Services</h1>
+            <p>Empowering India with dedicated support and advanced solar technology across multiple sectors.</p>
+            <div class="category-tags">
+                <span class="tag">Agriculture</span>
+                <span class="tag">Industry</span>
+                <span class="tag">Rooftop</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Features -->
+    <section class="service-features">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Our Technical Expertise</h2>
+                <div class="underline"></div>
+                <p>We provide comprehensive solutions from installation to long-term monitoring.</p>
+            </div>
+
+            <div class="service-grid">
+                <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>High Efficiency Installation</h3>
+                    <p>Our specialized installation team ensures maximum solar production with high efficiency,
+                        optimized for your specific geographical location.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Trained Technical Team</h3>
+                    <p>Manned by industry experts, our technical team provides top-notch consultation and maintenance
+                        for all solar assets.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI-Powered Assignment</h3>
+                    <p>We leverage Artificial Intelligence to instantly assign the nearest available service technician
+                        to your installed location for minimal downtime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RMS / Support Details -->
+    <section class="rms-section">
+        <div class="container">
+            <div class="rms-content">
+                <div class="rms-text" data-aos="fade-right">
+                    <h2>Advanced RMS & Support</h2>
+                    <div class="underline"></div>
+                    <p>Our Remote Monitoring System (RMS) provides 24/7 oversight of your solar installation.</p>
+                    <ul class="rms-list">
+                        <li><i class="fas fa-check-circle"></i> <span><strong>Proactive Diagnosis:</strong>
+                                Pre-identifying any potential faults in Solar via RMS before they occur.</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span><strong>Instant Resolution:</strong> 60-70% of
+                                cases are resolved within the same day directly via RMS.</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span><strong>On-Site Commitment:</strong> For the
+                                remaining 30-40%, an authorized technician is dispatched directly to the
+                                location.</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span><strong>Full Online Coverage:</strong> Resolving
+                                up to 100% of reported issues through our integrated online RMS platform.</span></li>
+                    </ul>
+                </div>
+                <div class="rms-img" data-aos="fade-left">
+                    <img src="controller.png" alt="RMS Controller">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Service Team Availability</h2>
+                <div class="underline"></div>
+                <p>Our pan-India service network ensures that we are always close to your installation.</p>
+            </div>
+            <div class="map-container" data-aos="zoom-in">
+                <img src="service-map.jpg" alt="Service Team Availability Map">
+            </div>
+            <p style="margin-top: 2rem; font-weight: 600; color: var(--gray);">Real-time monitoring of service team
+                spread across the country.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Shakti Solar Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -91,7 +91,8 @@ h3 {
     transition: var(--transition);
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
     color: var(--primary-color);
 }
 
@@ -456,7 +457,20 @@ footer {
 
     .nav-links {
         display: none;
-        /* Hide for mobile simplification */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        padding: 2rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .nav-links.show {
+        display: flex;
     }
 
     .menu-btn {

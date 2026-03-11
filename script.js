@@ -6,6 +6,22 @@ document.addEventListener('DOMContentLoaded', () => {
         offset: 100
     });
 
+    // Mobile Menu Toggle
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (menuBtn && navLinks) {
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+            const icon = menuBtn.querySelector('i');
+            if (icon.classList.contains('fa-bars')) {
+                icon.classList.replace('fa-bars', 'fa-times');
+            } else {
+                icon.classList.replace('fa-times', 'fa-bars');
+            }
+        });
+    }
+
     // Sticky Navbar at toP
     const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', () => {
